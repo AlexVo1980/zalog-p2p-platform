@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-anthracite-dark text-white font-sans antialiased overflow-x-hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-[2rem];
+}
+
+.text-gradient-gold {
+  @apply bg-gradient-to-tr from-gold-dark via-gold-light to-gold-dark bg-clip-text text-transparent;
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+*.session
+*.log
+__pycache__/
+.DS_Store
+temp/
+docs/*.pdf
+.gradle/
+build/
+**/.gradle/
+**/build/
+**/gradle/caches/
+**/gradle/wrapper/dists/
+platform/mobile/android/gradle/
